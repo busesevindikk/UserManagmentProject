@@ -1,0 +1,12 @@
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\UserManagment.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\UserManagment.Contract.AssemblyInfoInputs.cache
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\UserManagment.Contract.AssemblyInfo.cs
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\UserManagment.Contract.csproj.CoreCompileInputs.cache
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\UserManagment.Contract.sourcelink.json
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\bin\Debug\net8.0\UserManagment.Contract.deps.json
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\bin\Debug\net8.0\UserManagment.Contract.dll
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\bin\Debug\net8.0\UserManagment.Contract.pdb
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\UserManagment.Contract.dll
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\refint\UserManagment.Contract.dll
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\UserManagment.Contract.pdb
+C:\Users\buse.sevindik\source\repos\UserManagmentProject\UserManagment.Contract\obj\Debug\net8.0\ref\UserManagment.Contract.dll
