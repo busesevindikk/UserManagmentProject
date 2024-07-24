@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Repository\\Repository.csproj": {}
+    "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagement.DataAccess\\UserManagement.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Repository\\Repository.csproj": {
+    "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagement.DataAccess\\UserManagement.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagement.DataAccess\\UserManagement.DataAccess.csproj",
+        "projectName": "UserManagement.DataAccess",
+        "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagement.DataAccess\\UserManagement.DataAccess.csproj",
         "packagesPath": "C:\\Users\\buse.sevindik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagement.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -50,6 +50,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
