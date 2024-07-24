@@ -9,22 +9,25 @@
   },
   "packageFolders": {
     "C:\\Users\\buse.sevindik\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\Core.csproj",
-      "projectName": "Core",
-      "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\UserManagment.Business.csproj",
+      "projectName": "UserManagment.Business",
+      "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\UserManagment.Business.csproj",
       "packagesPath": "C:\\Users\\buse.sevindik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\buse.sevindik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

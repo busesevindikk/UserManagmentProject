@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\Core.csproj": {}
+    "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\UserManagment.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\Core.csproj": {
+    "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\UserManagment.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\UserManagment.Business.csproj",
+        "projectName": "UserManagment.Business",
+        "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\UserManagment.Business.csproj",
         "packagesPath": "C:\\Users\\buse.sevindik\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
