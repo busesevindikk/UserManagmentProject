@@ -5,26 +5,25 @@ using UserManagement.DataAccess;
 using UserManagement.DataAccess.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 // Add services to the container.
 builder.Services.AddControllers();
-
-// Add DbContext to the services
+builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<UserManagementDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.AddAutoMapper(typeof(MapProfile));
-// Register the UserService
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IUserService, UserService>();
-
-// Register the UserRepository
+builder.Services.AddSingleton<RabbitMQPublisher>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddAutoMapper(typeof(MapProfile));
 
+// Build the application.
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseSwagger();
+    app.UseSwaggerUI();
     app.UseDeveloperExceptionPage();
 }
 

@@ -35,7 +35,7 @@ namespace UserManagment.API.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateUser(UserUpdate userUpdate)
+        public  async Task<IActionResult> UpdateUser(UserUpdate userUpdate)
         {
             var updatedUser = await _userService.UpdateUserAsync(userUpdate);
             return Ok(updatedUser);

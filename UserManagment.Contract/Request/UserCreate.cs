@@ -8,7 +8,6 @@ namespace UserManagment.Contract.Request
 {
     public class UserCreate
     {
-     
         public string Name { get; set; }
         public int Age { get; set; }
 

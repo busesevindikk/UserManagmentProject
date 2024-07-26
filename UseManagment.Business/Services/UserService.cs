@@ -12,10 +12,13 @@ namespace UserManagement.Business
     {
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
-        public UserService(IUserRepository userRepository, IMapper mapper)
+        private readonly RabbitMQPublisher _rabbitMQPublisher;
+
+        public UserService(IUserRepository userRepository, IMapper mapper, RabbitMQPublisher rabbitMQPublisher)
         {
             _userRepository = userRepository;
             _mapper = mapper;
+            _rabbitMQPublisher = rabbitMQPublisher;
         }
 
 
@@ -24,6 +27,7 @@ namespace UserManagement.Business
             var userEntity = _mapper.Map<UserEntity>(userCreate);
             var createdUser = await _userRepository.AddUserAsync(userEntity);
             return _mapper.Map<UserDto>(createdUser);
+
 
         }
 
