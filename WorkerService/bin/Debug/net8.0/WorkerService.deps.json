@@ -9,7 +9,8 @@
       "WorkerService/1.0.0": {
         "dependencies": {
           "MassTransit.RabbitMQ": "8.2.3",
-          "Microsoft.Extensions.Hosting": "8.0.0"
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
           "WorkerService.dll": {}

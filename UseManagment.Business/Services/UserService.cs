@@ -26,6 +26,7 @@ namespace UserManagement.Business
         {
             var userEntity = _mapper.Map<UserEntity>(userCreate);
             var createdUser = await _userRepository.AddUserAsync(userEntity);
+            _rabbitMQPublisher.SendMessage(createdUser.Name + ' ' + createdUser.surName);
             return _mapper.Map<UserDto>(createdUser);
 
 

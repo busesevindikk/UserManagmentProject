@@ -2033,7 +2033,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "MassTransit.RabbitMQ >= 8.2.3",
-      "Microsoft.Extensions.Hosting >= 8.0.0"
+      "Microsoft.Extensions.Hosting >= 8.0.0",
+      "RabbitMQ.Client >= 6.8.1"
     ]
   },
   "packageFolders": {
@@ -2095,6 +2096,10 @@
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.8.1, )"
           }
         },
         "imports": [
