@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UseManagment.Business\UseManagment.Business.csproj" />
+    <ProjectReference Include="..\UseManagment.Business\UseManagement.Business.csproj" />
     <ProjectReference Include="..\UserManagement.DataAccess\UserManagement.DataAccess.csproj" />
   </ItemGroup>
 
