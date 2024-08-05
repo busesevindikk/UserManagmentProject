@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UserManagement.DataAccess\UserManagement.DataAccess.csproj" />
-    <ProjectReference Include="..\UserManagment.Contract\UserManagment.Contract.csproj" />
+    <ProjectReference Include="..\UserManagment.Contract\UserManagement.Contract.csproj" />
   </ItemGroup>
 
 </Project>

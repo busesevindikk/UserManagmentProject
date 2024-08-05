@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\UserManagment.Contract.csproj",
-      "projectName": "UserManagment.Contract",
-      "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\UserManagment.Contract.csproj",
+      "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\UserManagement.Contract.csproj",
+      "projectName": "UserManagement.Contract",
+      "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\UserManagement.Contract.csproj",
       "packagesPath": "C:\\Users\\buse.sevindik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\obj\\",
       "projectStyle": "PackageReference",

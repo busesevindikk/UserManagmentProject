@@ -1049,6 +1049,16 @@
           }
         }
       },
+      "UserManagement.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/UserManagement.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserManagement.Contract.dll": {}
+        }
+      },
       "UserManagement.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1061,16 +1071,6 @@
         },
         "runtime": {
           "bin/placeholder/UserManagement.DataAccess.dll": {}
-        }
-      },
-      "UserManagment.Contract/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/UserManagment.Contract.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UserManagment.Contract.dll": {}
         }
       }
     }
@@ -2901,23 +2901,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "UserManagement.Contract/1.0.0": {
+      "type": "project",
+      "path": "../UserManagment.Contract/UserManagement.Contract.csproj",
+      "msbuildProject": "../UserManagment.Contract/UserManagement.Contract.csproj"
+    },
     "UserManagement.DataAccess/1.0.0": {
       "type": "project",
       "path": "../UserManagement.DataAccess/UserManagement.DataAccess.csproj",
       "msbuildProject": "../UserManagement.DataAccess/UserManagement.DataAccess.csproj"
-    },
-    "UserManagment.Contract/1.0.0": {
-      "type": "project",
-      "path": "../UserManagment.Contract/UserManagment.Contract.csproj",
-      "msbuildProject": "../UserManagment.Contract/UserManagment.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "RabbitMQ.Client >= 6.8.1",
-      "UserManagement.DataAccess >= 1.0.0",
-      "UserManagment.Contract >= 1.0.0"
+      "UserManagement.Contract >= 1.0.0",
+      "UserManagement.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2928,9 +2928,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UseManagment.Business\\UseManagement.Business.csproj",
-      "projectName": "UseManagement.Business",
-      "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UseManagment.Business\\UseManagement.Business.csproj",
+      "projectUniqueName": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UseManagment.Business\\UserManagement.Business.csproj",
+      "projectName": "UserManagement.Business",
+      "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UseManagment.Business\\UserManagement.Business.csproj",
       "packagesPath": "C:\\Users\\buse.sevindik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UseManagment.Business\\obj\\",
       "projectStyle": "PackageReference",
@@ -2958,8 +2958,8 @@
             "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagement.DataAccess\\UserManagement.DataAccess.csproj": {
               "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagement.DataAccess\\UserManagement.DataAccess.csproj"
             },
-            "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\UserManagment.Contract.csproj": {
-              "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\UserManagment.Contract.csproj"
+            "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\UserManagement.Contract.csproj": {
+              "projectPath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UserManagment.Contract\\UserManagement.Contract.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HsMfos+nt60=",
+  "dgSpecHash": "wGCcx/JyE3E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UseManagment.Business\\UseManagement.Business.csproj",
+  "projectFilePath": "C:\\Users\\buse.sevindik\\source\\repos\\UserManagmentProject\\UseManagment.Business\\UserManagement.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buse.sevindik\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\buse.sevindik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
